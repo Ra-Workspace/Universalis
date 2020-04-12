@@ -10,7 +10,7 @@ const init = (async () => {
 	    line = line.split(",");
 	    worldMap.set(line[1].replace(/[^a-zA-Z]+/g, ""), line[0]);
 	}
-	["Chaos", "Light", "Elemental", "Gaia", "Mana", "Aether", "Crystal", "Primal"].forEach((dc) => {
+	["Chaos", "Light", "Elemental", "Gaia", "Mana", "Aether", "Crystal", "Primal", "Korean"].forEach((dc) => {
 		worldMap.set(dc, dc);
 	});
 })();
